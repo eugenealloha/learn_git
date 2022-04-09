@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles\index_style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <text class="it_club">It</text><text id="space" class="it_club">_</text><text class="it_club">club</text><br>
+                <text id="tagline">IT-центр подготовки для детей и молодежи</text>
+            </div>
+            <div id="language_change">
+                <text class="lang" onclick="ChangeLangToRu()">ru</text><div id="vline"></div><text class="lang" onclick="ChangeLangToEng()">eng</text>
+            </div>
+        </header>
+        <div id="main">
+            <text id="robototech">Робототехника -<br>хобби будущего</text>
+        </div>
+        
+        <div id="navigation">
+            <a href="#newsarticle" id="news" onmouseover="MouseOverNews()" onmouseout="MouseOutNews()">
+            <img src="images\news.png" alt="" id="newspic">
+            <text id="newstext">Новости</text>
+            </a>
+            <div id="vlinemain"></div>
+            <div id="rightpart">
+                <a href="#peoplearticle" id="people" onmouseover="MouseOverPeople()" onmouseout="MouseOutPeople()">
+                    <img src="images\people.png" alt="" id="peoplepic">
+                    <text id="peopletext">Наши участники</text>
+                </a>
+                <div id="bottompart">
+                    <a href="#achivearticle" id="achive" onmouseover="MouseOverAchive()" onmouseout="MouseOutAchive()">
+                        <img src="images\achive.png" alt="" id="achivepic">
+                        <text id="achivetext">Достижения</text>
+                    </a>
+                    <a href="#teamarticle" id="team" onmouseover="MouseOverTeam()" onmouseout="MouseOutTeam()">
+                        <img src="images\team.png" alt="" id="teampic">
+                        <text id="teamtext">Как попасть в<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspкоманду</text>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <text class="article" id="newsarticle">Новости</text>
+        <div id="states">
+            <img src="images\state.png" alt="" class="newsstate">
+            <img src="images\state.png" alt="" class="newsstate">
+            <img src="images\state.png" alt="" class="newsstate">
+            <img src="images\notliked.png" alt="" class="like" id="like_1" onclick="LikeClick_1(this)" onmouseout="MouseOutLike(this)" onmouseover="MouseOverLike(this)">
+            <img src="images\notliked.png" alt="" class="like" id="like_2" onclick="LikeClick_2(this)" onmouseout="MouseOutLike(this)" onmouseover="MouseOverLike(this)">
+            <img src="images\notliked.png" alt="" class="like" id="like_3" onclick="LikeClick_3(this)" onmouseout="MouseOutLike(this)" onmouseover="MouseOverLike(this)">
+            <text class="eventname" id="eventname_1">Мы в "PRO"</text>
+            <text class="eventdesc" id="eventdesc_1">На драматичном, полном эмоций и переживаний Втором этапе Кубка Образовательной <br>Робототехники сборная It_Club была переведена, несмотря на опыт участия в категорию "PRO"</text>
+            <text class="eventdate" id="eventdate_1">22.01<br>2022</text>
+            <text class="eventname" id="eventname_2">Турнир в Гомеле</text>
+            <text class="eventdesc" id="eventdesc_2">22 января сборная It_Club примет участие во Втором этапе Кубка Образовательной <br>Робототехники и уже сегодня отправляется в славный город Гомель!</text>
+            <text class="eventdate" id="eventdate_2">21.01<br>2022</text>
+            <text class="eventname" id="eventname_3">1 этап Кубка Робототехники</text>
+            <text class="eventdesc" id="eventdesc_3">Отличный дебют наших новичков - и стабильно сильное выступление ветерана! <br>Следующий турнир через месяц, а ребята уже вовсю строят планы по <br>совершенствованию конструкций. И главное - получен бесценный опыт, подкрепленный <br>отличным настроением, поддержкой сообщества It_Club и радостью наградам.</text>
+            <text class="eventdate" id="eventdate_3">12.12<br>2021</text>
+        </div>
+        <br><br><br><br>
+        <text class="article" id="peoplearticle">Наши участники</text>
+        <div class="quotes">
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\maksSmirnov.jpg" alt="" class="photo">
+                    <text class="name" id="name_1">Максим Смирнов <br>14 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_1">Второй год занимаюсь в It_club. Хожу на <br>курсы C# и робототехника. Я весёлый и <br>дружелюбный, что можно сказать про всю нашу <br>команду, а еще немного сумасшедший и люблю кушать). <br>Как попал в команду? В прошлом году, когда я <br>заканчивал C, Алексей <br>мне предложил вот и я в команде. Чем <br>горжусь так это код, на котором едут наши <br>роботы, t-rex, робот, который победил турнир, <br>и все дипломы тоже можно считать <br>достижениями.</text>
+                </div>
+            </div>
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\katyaLykova.jpg" alt="" class="photo">
+                    <text class="name" id="name_2">Екатерина Лыкова<br>15 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_2">Обычный клубень, ничего особенного. Имею <br>страсть к верстке сайтов, <br>программированию, робототехнике и <br>получаю большое удовольствие, занимаясь <br>любимым делом. Захотелось попробовать <br>себя в робототехнике, вот так и оказалась в <br>команде. Я считаю, что главное это уверенно <br>двигаться к лучшему, не смотря сколько это <br>займет времени. Больше всего нравятся <br>конечно выезды, но остальной процесс не <br>менее захватывающий</text>
+                </div>
+            </div>
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\maksBirulya.jpg" alt="" class="photo">
+                    <text class="name" id="name_3">Максим Бируля<br>14 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_3">Робототехника это можно сказать вид спорта <br>и уже за два этапа я получил много <br>позитивных эмоций. Учусь в клубе 3 год <br>занимаюсь робототехникой шарпами и <br>английским. Раньше занимался сишкой, <br>интенсив по графике, веб, англ. Ну сложно <br>сказать как именно я оказался в команде, <br>скорее всего благодаря тому что стремился к <br>этому, хорошо учился и хотел побеждать.</text>
+                </div>
+            </div>
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\maksSakov.jpg" alt="" class="photo">
+                    <text class="name" id="name_4">Максим Саков<br>15 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_4">Меня неожиданно пригласили в группу в вк <br>по робототехнике, и так я попал в команду. <br>Достижение и победа - это самый быстрый <br>импеллерный робот в нашей категории, я <br>думаю. А именно T-REX, Данилы Елисеева. Не <br>знаю, вроде вся это движуха чистый интерес. <br>Месяц готовишься, а потом за 4 часа <br>проходят и ты едешь домой. Самый прикол -<br>это поездка, это самое прикольное вообще.</text>
+                </div>
+            </div>
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\NadeykoAlexey.jpg" alt="" class="photo">
+                    <text class="name" id="name_5">Алексей Надейко <br>15 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_5">Для меня робототехника стала смыслом <br>жизни. Не знаю,что рассказать. С самого <br>начала моего обучения в it_club я хотел <br>попасть на робототехнику,но появилась <br>возможность только через 2 года. Главное <br>достижение - хороший результат для своего <br>дебюта в Гомеле,6 место. Больше всего <br>в робототехнике мне понравился выезд и,<br>конечно же, сам турнир, это был отличный <br>опыт для меня</text>
+                </div>
+            </div>
+            <div class="person">
+                <div class="photoandname">
+                    <img src="images\SergeyVeynik.jpg" alt="" class="photo">
+                    <text class="name" id="name_6">Сергей Вейник<br>14 лет</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext" id="quotetext_6">Робототехника для меня давно перестала <br>быть обычным хобби. Мы всегда проводим <br>классно время с командой и у нас <br>потрясающая атмосфера. Больше всего я <br>горжусь нашим выступлением в Гомеле. <br>Разумеется мне очень нравятся выезды, <br>когда почти целый день мы проводим вместе <br>с командой, даже волноваться вместе слегка <br>приятно, если так можно сказать. Я очень <br>рад, что являюсь частью нашей команды</text>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br>
+        <text class="article" id="achivearticle">Достижения</text>
+        <div id="achievements">
+            <div class="achievement">
+                <img src="images\achive.png" alt="" class="achievement_pic">
+                <text class="achievement_name">2 этап Кубка Робототехники</text>
+                <text class="achievement_desc">
+                    <ul>
+                        <li>Максим Саков, робот "Чикагский Кот" - 3 место</li>
+                        <li>Надейко Алексей, робот "Дворцовый Кот" - 6 место;</li>
+                        <li>Смирнов Максим, робот "Mad Max" - 7 место;</li>
+                    </ul>
+                </text>
+                <text class="achievement_date">22.01.2022</text>
+            </div>
+            <div class="achievement">
+                <img src="images\achive.png" alt="" class="achievement_pic">
+                <text class="achievement_name">1 этап Кубка Робототехники</text>
+                <text class="achievement_desc">
+                    <ul>
+                        <li>Максим Смирнов, робот "MadMax" - 2 место</li>
+                        <li>Макс Бируля, робот "Samurai" - 3 место</li>
+                        <li>Максим Саков, робот "Чикагский Кот" - 3 место</li>
+                    </ul>
+                </text>
+                <text class="achievement_date">12.12.2021</text>
+            </div>
+        </div>
+        <br><br><br><br>
+        <text class="article" id="teamarticle">Как попасть в команду</text>
+        <div class="quotes">
+            <div class="person">
+                <div class="quote">
+                    <img src="images\quote.png" alt="" class="quotepic">
+                    <text class="quotetext">Чтобы попасть в команду, помимо того, что <br>нужно быть членом клуба, также важно быть <br>ответсвенным и целеустремленным. Прямо <br>как в пословице "Без труда не выловишь и <br>рыбку из пруда". В робототехнике почти <br>также. За каждым выступлением робота <br>стоят часы его сборки, настройки, отладки. <br>Это долгий и кропотливый процесс, так что <br>придется запастись терпением, ну а команда <br>всегда поможет. Мы как мушкетеры: один за <br>всех и все за одного!</text>
+                </div>
+                <div class="peopleline"></div>
+                <div class="photoandname">
+                    <img src="images\maksBirulya.jpg" alt="" class="photo">
+                    <text class="name">Максим Бируля<br>14 лет</text>
+                </div>
+            </div>
+            <a href="regist.html"><button id="it_club_button"><text id="it_club_button_text">Подать заявку в It_Club</text></button></a>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <footer id="footer">
+            <img src="images\footer.png" alt="" id="footerpic">
+            <div id="contacts">
+                <div id="left_contacts">
+                    <text id="contacts_text">Контакты:<br>+375 29 192 8681<br></text>
+                    <div>&nbsp</div>
+                    <div id="vkpic_container"><a href="https://vk.com/itclub_minsk"><img src="images\vk.png" alt="" width="67"></a></div>
+                </div>
+                <div id="rigth_contacts">
+                    <text id="contacts_text">Эл. почта:<br>it_club@gmail.com<br></text>
+                    <div>&nbsp</div>
+                    <div id="instpic_container"><a href="https://www.instagram.com/it.club.by/"><img src="images\instagram.png" alt="" width="67"></a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="script\index_script.js"></script>
+    </body>
+</html>

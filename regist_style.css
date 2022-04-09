@@ -1,0 +1,124 @@
+header{
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#space{
+    color: #60ECFF;
+}
+
+.it_club{
+    font-family: 'Segoe UI';
+    font-style: normal; 
+    font-weight: 800;   
+    font-size: 48px;
+    line-height: 56px;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#tagline{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#language_change{
+    display: flex;
+    width: 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lang{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+}
+#vline{
+    width: 3px;
+    height: 28px;
+    background-color: #60ECFF; 
+}
+
+#article{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 19%;
+}
+
+#design_field{
+    border: 5px solid #60ECFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 50%;
+    margin-left:25%;
+    margin-top: 2%;
+}
+
+#field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+
+.point{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 53px;
+}
+
+.point_text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.shortinput{
+    width: 40%;
+}
+
+.longinput{
+    height: 300px;
+}
+
+#buttons{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+
+.button{
+    width: 383px;
+    height: 83px;
+    background: radial-gradient(58.71% 4619.38% at 50% 50%, #418CD0 0%, #C7E4FF 100%);
+    border: 4px solid #60ECFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.button_text{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+}

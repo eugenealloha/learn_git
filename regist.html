@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles\regist_style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <text class="it_club">It</text><text id="space" class="it_club">_</text><text class="it_club">club</text><br>
+                <text id="tagline">IT-центр подготовки для детей и молодежи</text>
+            </div>
+            <div id="language_change">
+                <text class="lang" onclick="ChangeLangToRu()">ru</text><div id="vline"></div><text class="lang" onclick="ChangeLangToEng()">eng</text>
+            </div>
+        </header>
+        <text id="article">Заполните нужные поля</text>
+        <div id="design_field">
+            <div id="field">
+                <div class="point">
+                    <text class="point_text">Имя:</text>
+                    <input type="text" id="name" class="shortinput">
+                </div>
+                <div class="point">
+                    <text class="point_text">Фамилия:</text>
+                    <input type="text" id="surname" class="shortinput">
+                </div>
+                <div class="point">
+                    <text class="point_text">Телефон:</text>
+                    <input type="number" id="telephone" class="shortinput">
+                </div>
+                <div class="point">
+                    <text class="point_text">Дата рождения:</text>
+                    <input type="date" id="birthdate" class="shortinput">
+                </div>
+                <text class="point_text">Опиши себя в нескольких строчках:</text>
+                <textarea type="text" id="desc" class="longinput"></textarea>
+            </div>
+        </div>
+        <div id="buttons">
+            <button class="button" onclick="Clear()"><text class="button_text">Очистить</text></button>
+            <button class="button" onclick="Submit()"><text class="button_text">Готово</text></button>
+        </div>
+        <script src="script\regist_script.js"></script>
+    </body>
+</html>
